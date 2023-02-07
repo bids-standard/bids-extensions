@@ -7,6 +7,7 @@
 - You can interact with and get to know other experts in the field.
 - A more substantial extension can lead to standalone publications, as evidenced
   by [abundant examples](https://bids-specification.readthedocs.io/en/latest/introduction.html#citing-bids).
+
 ## Overarching principles in the design of BIDS
 
 - Folder structure must be not only machine-readable but also easy to interpret
