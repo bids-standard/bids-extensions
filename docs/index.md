@@ -1,3 +1,3 @@
 # Welcome
 
-![bidslogo](bids-specification/BIDS_logo/BIDS_logo.jpg)
+![bidslogo](assets/img/BIDS_logo.jpg)
