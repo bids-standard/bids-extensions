@@ -2,63 +2,68 @@
 
 ## Why contribute to BIDS?
 
-- You can make something that is good even better without building it from
+You can make something that is good even better without building it from
   scratch.
-- You can interact with and get to know other experts in the field.
-- A more substantial extension can lead to standalone publications, as evidenced
+
+You can interact with and get to know other experts in the field.
+
+A more substantial extension can lead to standalone publications, as evidenced
   by [abundant examples](https://bids-specification.readthedocs.io/en/latest/introduction.html#citing-bids).
 ## Overarching principles in the design of BIDS
 
-- Folder structure must be not only machine-readable but also easy to interpret
+Folder structure must be not only machine-readable but also easy to interpret
   by humans. In other words, readability is as important as the ability to
   programmatically traverse the folder structure.
-- When it comes to file names within folders, redundancy trumps concision -- the
+
+When it comes to file names within folders, redundancy trumps concision -- the
   files should be identifiable by their names even if removed from the folder
   structure.
 
 ## When and how to start a BIDS Extension Proposal?
 
-- Small contributions (typos, rephrasing of a description, adding a single new
+Small contributions (typos, rephrasing of a description, adding a single new
   metadata field) can be just added as a
   [Pull Request on GitHub](https://github.com/bids-standard/bids-specification)
-- Larger contributions that are expected to involve longer and more involved
+
+Larger contributions that are expected to involve longer and more involved
   discussions should be first described in a standalone document: a Google Docs
   BEP (BIDS Extension Proposal). Development on Google Docs is preferred as this
   is a low entry barrier for colleagues who do not use GitHub and/or markdown,
   allowing more people to get involved.
-  1. Read the
-     [BIDS governance document](https://bids.neuroimaging.io/governance.html).
-  2. Familiarize yourself with the BIDS community by browsing current issues,
-     discussions, and proposed changes on
-     [GitHub](https://github.com/bids-standard/bids-specification/).
-  3. Open an initial “issue” on the
-     [GitHub](https://github.com/bids-standard/bids-specification/) issue
-     tracker to gauge interest in your potential extension, and to collect
-     feedback by core community members and
-     [BIDS maintainers](https://github.com/bids-standard/bids-specification/blob/master/DECISION-MAKING.md#maintainers-group).
-     _This is an important step before proceeding in order to make sure that
-     everybody is on the same page._
-  4. Communicate with the BIDS maintainers to make your BEP official. This
-     entails registering the BEP with a number on the
-     [website](https://bids.neuroimaging.io/get_involved.html)_._ Practically,
-     to obtain a number for your BEP, follow the previous steps and then open a
-     new issue on the
-     [website GitHub repository](https://github.com/bids-standard/bids-website/),
-     cross-linking to other already existing issues.
-  5. Create a solid draft of your extension by discussing among colleagues. The
-     [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
-     provides some boilerplate and formatting conventions.
-  6. List on the draft who is/are leading the effort.
-  7. Share the draft (remember to
-     [share a link that allows anyone to comment](https://support.google.com/docs/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en))
-     with the
-     [bids-discussion mailing list](https://groups.google.com/forum/#!forum/bids-discussion)
-     and ask for comments.
-  8. Incorporate the feedback, strive for consensus.
-  9. Help to merge the extension into the main specification (this will require
-     converting the proposal to Markdown and sending a Pull Request at
-     [https://github.com/bids-standard/bids-specification](https://github.com/bids-standard/bids-specification))
-  10. If necessary, contribute a pull request to the
+
+1. Read the
+   [BIDS governance document](https://bids.neuroimaging.io/governance.html).
+2. Familiarize yourself with the BIDS community by browsing current issues,
+   discussions, and proposed changes on
+   [GitHub](https://github.com/bids-standard/bids-specification/).
+3. Open an initial “issue” on the
+   [GitHub](https://github.com/bids-standard/bids-specification/) issue
+   tracker to gauge interest in your potential extension, and to collect
+   feedback by core community members and
+   [BIDS maintainers](https://github.com/bids-standard/bids-specification/blob/master/DECISION-MAKING.md#maintainers-group).
+   _This is an important step before proceeding in order to make sure that
+   everybody is on the same page._
+4. Communicate with the BIDS maintainers to make your BEP official. This
+   entails registering the BEP with a number on the
+   [website](https://bids.neuroimaging.io/get_involved.html)_._ Practically,
+   to obtain a number for your BEP, follow the previous steps and then open a
+   new issue on the
+   [website GitHub repository](https://github.com/bids-standard/bids-website/),
+   cross-linking to other already existing issues.
+5. Create a solid draft of your extension by discussing among colleagues. The
+   [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
+   provides some boilerplate and formatting conventions.
+6. List on the draft who is/are leading the effort.
+7. Share the draft (remember to
+   [share a link that allows anyone to comment](https://support.google.com/docs/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en))
+   with the
+   [bids-discussion mailing list](https://groups.google.com/forum/#!forum/bids-discussion)
+   and ask for comments.
+8. Incorporate the feedback, strive for consensus.
+9. Help to merge the extension into the main specification (this will require
+   converting the proposal to Markdown and sending a Pull Request at
+   [https://github.com/bids-standard/bids-specification](https://github.com/bids-standard/bids-specification))
+10. If necessary, contribute a pull request to the
       [BIDS Validator](https://github.com/bids-standard/bids-validator)
       incorporating the extension.
 
