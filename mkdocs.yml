@@ -19,3 +19,8 @@ theme:
     logo: assets/img/logo.png
     features:
       - navigation.sections
+
+markdown_extensions:
+    - toc:
+        anchorlink: true
+    - pymdownx.superfences
