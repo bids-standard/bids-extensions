@@ -16,8 +16,12 @@ as new techniques, and files types and descriptors. A list of completed
 BEPS can be seen [here](https://bids.neuroimaging.io/get_involved.html#completed-beps) and 
 a list of proposed/on going BEPs can be found [here]https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
 
-_**We strongly suggest that you explore the [specification](bids-specification.readthedocs.io) and the [lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification) linked [above](#what-is-a-bids-extension-proposal-(bep)) to find existing or ongoing efforts that may support what you
-are trying to add into the BIDS Specification. Someone may have already done all the work for you.**_
+
+
+**_Note:_** 
+> We strongly suggest that you explore the [specification](bids-specification.readthedocs.io) and 
+> the [lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification) linked [above](#what-is-a-bids-extension-proposal-(bep)) to find existing or ongoing efforts that may support what you
+are trying to add into the BIDS Specification. Someone may have already done all the work for you.
 
 ## Why contribute to BIDS?
 

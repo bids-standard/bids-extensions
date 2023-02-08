@@ -10,7 +10,7 @@ For information about what is a BEP and how to get started working with a BEP vi
 **_We strongly suggest that you explore the [specification](bids-specification.readthedocs.io) 
 and the [lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification) 
 linked [here](#what-is-a-bids-extension-proposal-(bep)) to find existing or ongoing efforts that may support what you
-are trying to add into the BIDS Specification._**
+are trying to add into the BIDS Specification. That is to say, "not everything in research needs to be replicated"._**
 
 ## Submitting a BEP
 
