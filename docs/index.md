@@ -19,5 +19,5 @@ Once you've made progress on your BEP and you are ready to integrated it into th
 ## The BIDS Schema
 
 Additionally, this site serves as the main documentation repository for working with the BIDS Schema, which you will 
-encounter as a part of creating a BEP. For more information about the history of, working with, or 
-translating your BEP into the schema visit the [Schema Guide](schema.md) on this site. 
+  encounter as a part of creating a BEP. For more information about the history of, working with, or 
+  translating your BEP into the schema visit the [Schema Guide](schema.md) on this site. 
