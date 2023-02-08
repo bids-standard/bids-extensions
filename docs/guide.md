@@ -5,11 +5,11 @@
 A BEP, as the name implies, is a method of expanding the BIDS Specification to 
 encompass new features or imaging types. 
 
-Why are they called BEPs? BEP's are modeled after 
-  [Python Extention Proposals](https://peps.python.org/pep-0001/#what-is-a-pep) (PEPs) as
-  they have been an effective community tool to change (either by updating or supplementing) 
-  the Python programming language and our adopting a similar structure (has so far) been an
-  effective method of contributing new changes to BIDS.
+Why are they called BEPs? BEPs are modeled after 
+[Python Extension Proposals](https://peps.python.org/pep-0001/#what-is-a-pep) (PEPs) as
+they have been an effective community tool to change (either by updating or supplementing) 
+the Python programming language and BIDS contributors adopting a similar structure (has so far) been an
+effective method of contributing new changes to BIDS.
 
 BEPs have grown the specification to include beyond MRI as well
 as new techniques, and files types and descriptors. A list of completed 
