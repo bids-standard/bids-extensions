@@ -11,7 +11,10 @@ nav:
   - About: index.md
   - Guide: guide.md
   - Submission Process: submission.md
-  - The Schema: schema.md
+  - The Schema: 
+      - About the Schema: schema.md
+      - How the Schema Works: how-the-schema-works.md
+
 
 theme:
     name: material

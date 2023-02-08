@@ -193,8 +193,8 @@ Merging BIDS extension proposals only happens following a community review. It
 
 ### How to turn on email notifications about suggestions and comments for Google Documents
 
-<img alt="notifications_1" src=assets/img/notifications_1.png height=50% width=50%>
+![notifications_1](assets/img/notifications_1.png)
 
-<img alt="notifications_2" src=assets/img/notifications_2.png height=50% width=50%>
+![notifications_2](assets/img/notifications_2.png)
 
-<img alt="notifications_3" src=assets/img/notifications_3.png height=50% width=50%>
+![notifications_3](assets/img/notifications_3.png)

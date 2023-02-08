@@ -7,10 +7,15 @@ The BIDS schema is a machine readable representation of the BIDS Standard
   by the Schema we encourage you to look at the developer documentation
   contained within the source code here on [GitHub][schema_readme.md].
 
-## Where is the Schema and What does it look like?
+The schema is split into three major divisions:
 
-The schema lives in within the [BIDS Specification][schema_source]; its 
-  structure can be seen in the tree below.
+- `objects` - Contains definitions of BIDS concepts and entities
+- `rules` - Rules for validation of file path names, file/folder contents 
+(including sidecar and other metadata) 
+- `meta` - Contains rules and definitions for the schema itself as well as defining
+a "context" object to which rules can be applied. 
+
+The schema is organized in the file structure in the tree seen below:
 
 ```
 src/schema
@@ -31,9 +36,12 @@ src/schema
 └── SCHEMA_VERSION
 ```
 
-Additionally, the schema can be located in a deferenced JSON blob sync'd 
-  to the BIDS Specification Version at 
+## Where is the Schema?
+
+The schema source code lives within the [BIDS Specification][schema_source]; 
+  a deferenced JSON'ified verison can be found at the following url ->
   [bids-specification.readthedocs.io/en/stable/schema.json][jsonified_schema].
+  
 
 ## History of the Schema
 
@@ -94,7 +102,7 @@ nii:
 
 Will produce the following entry in the [rendering](https://bids-specification.readthedocs.io/en/stable/glossary.html#nii-extensions):
 
-<img src="./assets/img/rendered_nifti_entity.png" alt="rendered nifti entity" width=50% height=50%>
+![rendered nifti entity](./assets/img/rendered_nifti_entity.png)
 
 ---
 
