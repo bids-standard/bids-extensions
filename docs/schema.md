@@ -77,34 +77,7 @@ Efforts have been made to eliminate needing to implement a BEP in both a mark-up
   or any other software or tool that interacts with BIDS. A change now made to a BEP, the spec in general,
   is now a change made and updated within the validator
 
-## Comparisons between the [Schema][schema_source] and the [Rendered Specification](https://bids-specification.readthedocs.io)
 
----
-
-The requirements for an anatomical MR:
-
-```yaml
-
-```
-
-
----
-
-A glossary entry for the NIfTI file extension (.nii):
-
-```yaml
-nii:
-  value: .nii
-  display_name: NIfTI
-  description: |
-    A Neuroimaging Informatics Technology Initiative (NIfTI) data file.
-```
-
-Will produce the following entry in the [rendering](https://bids-specification.readthedocs.io/en/stable/glossary.html#nii-extensions):
-
-![rendered nifti entity](./assets/img/rendered_nifti_entity.png)
-
----
 
 [state_of_the_schema_presentation]: https://docs.google.com/presentation/d/1ldEbElaFm__jtkLoEcn2PQ-LGj1dfmdjWxDvE11eiNk/edit?usp=sharing
 [start_of_schema]: https://github.com/bids-standard/bids-specification/issues/466
