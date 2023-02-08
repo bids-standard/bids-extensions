@@ -14,7 +14,7 @@ effective method of contributing new changes to BIDS.
 BEPs have grown the specification to include beyond MRI as well
 as new techniques, and files types and descriptors. A list of completed 
 BEPS can be seen [here](https://bids.neuroimaging.io/get_involved.html#completed-beps) and 
-a list of proposed/on going BEPs can be found [here]https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
+a list of proposed/ongoing BEPs can be found [here]https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
 
 
 
