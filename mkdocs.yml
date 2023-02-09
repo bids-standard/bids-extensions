@@ -13,8 +13,6 @@ nav:
   - Submission Process: submission.md
   - The Schema: 
       - About the Schema: schema.md
-      - How the Schema Works: how-the-schema-works.md
-
 
 theme:
     name: material
