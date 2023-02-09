@@ -61,8 +61,6 @@ The schema began as a [pull request][start_of_schema] to convert an entity table
 - Easier maintainance of the specification, tools, and other applications <sup>[1][start_of_schema],[5][bids_schema_validation_for_datatypes]</sup>
 - Improve the process of writing BEPs
 
-## 
-
 ## Extending the Schema and Validator
 
 Past BIDS Extension Proposals (BEPs) have required extending the specification itself as well as the BIDS Validator. 
