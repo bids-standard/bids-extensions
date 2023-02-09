@@ -7,9 +7,9 @@ Firstly, BIDS Extension proposals are more commonly refered to by the acronym BE
 
 For information about what is a BEP and how to get started working with a BEP visit the [BEP Guide](guide.md).
 
-**_We strongly suggest that you explore the [specification](bids-specification.readthedocs.io) 
+**_We strongly suggest that you explore the [specification](https://bids-specification.readthedocs.io) 
 and the [lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification) 
-linked [here](#what-is-a-bids-extension-proposal-(bep)) to find existing or ongoing efforts that may support what you
+linked [here](guide/#what-is-a-bids-extension-proposal-(bep)) to find existing or ongoing efforts that may support what you
 are trying to add into the BIDS Specification. That is to say, "not everything in research needs to be replicated"._**
 
 ## Submitting a BEP
@@ -19,5 +19,5 @@ Once you've made progress on your BEP and you are ready to integrated it into th
 ## The BIDS Schema
 
 Additionally, this site serves as the main documentation repository for working with the BIDS Schema, which you will 
-encounter as a part of creating a BEP. For more information about the history of, working with, or 
-translating your BEP into the schema visit the [Schema Guide](schema.md) on this site. 
+  encounter as a part of creating a BEP. For more information about the history of, working with, or 
+  translating your BEP into the schema visit the [Schema Guide](schema.md) on this site. 
