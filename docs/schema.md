@@ -2,7 +2,7 @@
 
 The BIDS schema is a machine readable representation of the BIDS Standard
   written in [YAML](https://en.wikipedia.org/wiki/YAML). It is (by and large)
-  the BIDS Specification, but written in a declaritive form. For a full
+  the BIDS Specification, but written in a declarative form. For a full
   accounting of all methods, operators, and options provided to the user
   by the Schema we encourage you to look at the developer documentation
   contained within the source code here on [GitHub][schema_readme.md].
