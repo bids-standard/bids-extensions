@@ -9,7 +9,7 @@ They are called BEPs because they are modeled after
   the Python programming language. BIDS contributors adopting a similar structure has
   been useful to expand BIDS.
 
-BEPs have grown the specification to include beyond MRI
+BEPs have grown the specification beyond its original scope of MRI
   to new techniques, and file types and descriptors. A list of completed
   BEPS can be seen [here](https://bids.neuroimaging.io/get_involved.html#completed-beps) and
   a list of proposed/ongoing BEPs can be found [here]https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
