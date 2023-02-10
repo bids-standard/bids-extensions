@@ -38,7 +38,7 @@ The BIDS Schema can be be divided into three major components:
 
 ## Objects
 
-The Objects portion of the schema contains the following schema files:
+The Objects portion of the schema contains the following collection of schema files:
 
 ```
 src/schema/objects
@@ -53,6 +53,8 @@ src/schema/objects
 ├── modalities.yaml
 └── suffixes.yaml
 ```
+
+Objects are used to represent 
 
 ### BIDS terms
 
@@ -107,7 +109,7 @@ noncontinuous:
     run: optional
 ```
 
-![rendered image of template see slide 7 in schema sprint intro]()
+![rendered image of template see slide 7 in schema sprint intro](assets/img/noncontinuous_beh_rendered_template.png)
 
 ---
 
@@ -128,7 +130,7 @@ MRIAnatomyCommonMetadataFields:
     RepetitionTimePreparation: optional
 ```
 
-![rendered image of rules.sidecars.anat.MRIAnatomyCommonMetadataFields]()
+![rendered image of rules.sidecars.anat.MRIAnatomyCommonMetadataFields](assets/img/rules_sidecars_anat_MRIAnatomyCommonMetadataFields.png)
 
 ---
 
@@ -152,7 +154,7 @@ TaskEvents:
     - 'duration'
 ```
 
-![rendered image of task events]()
+![rendered image of task events](assets/img/tasks_events_tablular_data_rendered.png)
 
 ---
 
@@ -183,7 +185,7 @@ DWIVolumeCount:
 ### One-off rules
 
 - [`rules.entities`](https://github.com/bids-standard/bids-specification/blob/master/src/schema/rules/entities.yaml): Global order of entities
-- [`rules.dataset_metadata`]https://github.com/bids-standard/bids-specification/blob/master/src/schema/rules/dataset_metadata.yaml): Contents of dataset_description.json and genetic_info.json, constructed similarly to [rules.sidecars](#rulessidecars)
+- [`rules.dataset_metadata`](https://github.com/bids-standard/bids-specification/blob/master/src/schema/rules/dataset_metadata.yaml): Contents of dataset_description.json and genetic_info.json, constructed similarly to [rules.sidecars](#rulessidecars)
 - [`rules.modalities`](https://github.com/bids-standard/bids-specification/blob/master/src/schema/rules/modalities.yaml): Grouping of data types by "modality" (somewhat ill-defined)
 - [`rules.common_principles`](https://github.com/bids-standard/bids-specification/blob/master/src/schema/rules/common_principles.yaml): Order of BIDS terms listed in "Common principles" section
 - [`rules.errors`](https://github.com/bids-standard/bids-specification/blob/master/src/schema/rules/errors.yaml): Error messages found in the validator that cannot be schematized (e.g., NIFTI_HEADER_UNREADABLE), intended to promote consistency across tooling
