@@ -13,6 +13,7 @@ nav:
   - Submission Process: submission.md
   - The Schema and Validator: 
       - About the Schema: schema.md
+      - How the Schema Works: how-the-schema-works.md
 
 theme:
     name: material
@@ -25,3 +26,5 @@ markdown_extensions:
     - toc:
         anchorlink: true
     - pymdownx.superfences
+    - pymdownx.details
+    - admonition
