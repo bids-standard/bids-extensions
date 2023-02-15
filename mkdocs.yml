@@ -13,7 +13,10 @@ nav:
   - Submission Process: submission.md
   - The Schema and Validator: 
       - About the Schema: schema.md
-      - How the Schema Works: how-the-schema-works.md
+      - Parts of the Schema: how-the-schema-works.md
+      - Schema Objects: schema_objects.md
+      - Schema Rules: schema_rules.md
+      - Schema Meta: schema_meta.md
 
 theme:
     name: material
