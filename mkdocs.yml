@@ -11,7 +11,7 @@ nav:
   - About: index.md
   - Guide: guide.md
   - Submission Process: submission.md
-  - The Schema: 
+  - The Schema and Validator: 
       - About the Schema: schema.md
       - Parts of the Schema: how-the-schema-works.md
       - Schema Objects: schema_objects.md

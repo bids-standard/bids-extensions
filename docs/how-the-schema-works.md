@@ -44,7 +44,10 @@ links to reach those parts of the schema.
 
 Specific examples from the schema can be expanded or hidden by clicking on blue _boxes_ to show or hide them.
 
+???+ "show or hide this example"
 
-
-
-
+    ```yaml
+    this_example:
+        - list item 1
+        - list item 2
+    ```
