@@ -1,4 +1,5 @@
 site_name: BIDS Extension Proposals
+repo_url: https://github.com/bids-standard/bids-extensions/
 
 theme: material
 
