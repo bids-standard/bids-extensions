@@ -15,7 +15,7 @@ This process assumes the BEP is ready to be opened as a pull
 
 1. Extension proposal
 2. Extension of the
-   [`bids-validator`](https://github.com/bids-standard/bids-validator) to support
+   [`bids-schema`](https://github.com/bids-standard/bids-specification/tree/master/src/schema) to support
    the BEP
 3. Examples (to test the validator is working properly) added to
    [`bids-examples`](https://github.com/bids-standard/bids-examples)
@@ -54,8 +54,11 @@ The BEP lead(s) will work with the BIDS maintainers to coordinate the community
   review period. The community review period is scheduled _after_ the pull request
   has been opened.
 
-## Submitting the validator extension
+## Submitting the validator extension (deprecation warning)
 
+0. Determine if this is necessary as approved and merged changes to
+   to the [schema](https://github.com/bids-standard/bids-specification/tree/master/src/schema)
+   will cancel the need to complete the following steps.
 1. Create a new branch off of the `bids-validator` repository
 2. Name the branch following the BEP tag convention: `bep###` (e.g. `bep003`)
 3. Label your pull requests with your BEP tag. This will clearly differentiate
