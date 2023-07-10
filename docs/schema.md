@@ -44,7 +44,7 @@ The schema source code lives within the [BIDS Specification][schema_source];
 
 ## Schema documentation
 
-A full desctiption of the schema can be found on this [website][bidsschematools_rtd] 
+A full description of the schema can be found on this [website][bidsschematools_rtd] 
 where you will also find the documentation for the python package
 to interact with the schema, [bidsschematools][bidsschematools_pypi].
 
