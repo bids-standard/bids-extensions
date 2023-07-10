@@ -41,7 +41,12 @@ src/schema
 The schema source code lives within the [BIDS Specification][schema_source]; 
   a deferenced JSON'ified verison can be found at the following url ->
   [bids-specification.readthedocs.io/en/stable/schema.json][jsonified_schema].
-  
+
+## Schema documentation
+
+A full desctiption of the schema can be found on this [website][bidsschematools_rtd] 
+where you will also find the documentation for the python package
+to interact with the schema, [bidsschematools][bidsschematools_pypi].
 
 ## History of the Schema
 
