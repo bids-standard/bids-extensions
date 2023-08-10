@@ -100,7 +100,9 @@ Larger contributions that are expected to involve longer and more involved
    converting the proposal to Markdown and submitting a Pull Request at
    [the BIDS specification repository])
 
-11. If necessary, contribute a pull request to the
+11. Create example datasets.
+
+12. If necessary, contribute a pull request to the
       [BIDS Validator repository](https://github.com/bids-standard/bids-validator)
       as well to incorporate the extension.
 
