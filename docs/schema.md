@@ -81,9 +81,9 @@ Efforts have been made to eliminate needing to implement a BEP in both a mark-up
 [start_of_schema]: https://github.com/bids-standard/bids-specification/issues/466
 [bids_schema_validation_for_datatypes]: https://github.com/bids-standard/bids-validator/pull/1325
 
-[BIDS Sprint 3 Discussion]: https://googledrive.uploadmeeeeeric.com
-[BIDS Sprint 2 Discussion]: https://googledrive.addthislinkadamputitsomewhere.com
-[BIDS Sprint 1 Discussion]: https://zoomneedstouploadthis.com
+[BIDS Sprint 1 Discussion]: https://bit.ly/pdx-bids-sprint
+[BIDS Sprint 2 Discussion]: https://docs.google.com/document/d/1UmcNlv5Ly9Ko6UStJBPV4UGVARjdNtZWRx9OVTLsE7Q/edit?usp=sharing
+[BIDS Sprint 3 Discussion]: https://docs.google.com/presentation/d/1j7kWyRpk3VPY7r4tsEzuAQ-jmn83iZkmXYtdriCJptg/edit?usp=sharing
 
 [jsonified_schema]: https://bids-specification.readthedocs.io/en/stable/schema.json
 [schema_readme.md]: https://github.com/bids-standard/bids-specification/blob/master/src/schema/README.md
