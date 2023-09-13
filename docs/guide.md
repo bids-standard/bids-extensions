@@ -141,6 +141,27 @@ The main specification follows some general rules. For example, see the
 
 Try not to deviate from BIDS conventions in your extension.
 
+### Derivatives BEP and provenance
+
+The objective of BIDS is to promote data sharing, ensuring that the information is 
+easily accessible and reusable. For this purpose, it is highly recommended to provide 
+comprehensive provenance information to ensure transparency and traceability. While full 
+provenance can be used for full reproducibility, it is not a pre-requirement. A suggested 
+approach to developing the BEP involves envisioning each processing step, including 
+potential file names and JSON structures. While this exercise might not precisely depict 
+the eventual output files and JSON configurations, it's instrumental in capturing provenance 
+and identifying what files or information should be retained for optimal reuse in future studies.
+
+_What is provenance?_: Provenance is information about how the dataset was processed.
+
+_What BIDS-Prov (BEP28) is about and which metadata can/should go in my BIDS-derivative BEP?_: The important question to ask for each metadata is whether this metadata is important to enable reusability (for consistent interpretation that is relevant for further processing). If so, this metadata must go into the BIDS-derivatives.
+
+_Should I worry that those are already covered by the BIDS-Prov BEP?:_ No. This information is complementary.
+
+_How do I know if the metadata I want to store should be put in the BIDS-derivatives BEP or in a JSON-LD file?:_ It will never go in JSON-LD. BIDS-derivatives and BIDS-Prov are superpositions, they are non-overlapping. You don't have to include BIDS-Prov.
+
+_If I don’t use BIDS-Prov how can I describe the data workflow?_ A lightweight version is to use a description.tsv file (see common [derivatives](https://bids-specification.readthedocs.io/en/stable/05-derivatives/02-common-data-types.html))
+
 ### Avoid backward incompatible changes
 
 BIDS is already incorporated in many tools - proposing a change that will render
