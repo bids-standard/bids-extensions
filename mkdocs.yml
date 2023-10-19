@@ -18,6 +18,7 @@ nav:
       - Schema Objects: schema_objects.md
       - Schema Rules: schema_rules.md
       - Schema Meta: schema_meta.md
+  - General Conventions: general_conventions.md
 
 theme:
     name: material
