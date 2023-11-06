@@ -6,6 +6,17 @@ These guidelines are not set in stone and can be modified as needed.
 The guidelines are thus RECOMMENDED, not REQUIRED, in that `BEP`s would be allowed to deviate when deemed necessary.
 The goal is to establish consensus so that parts of `BEP`s that propose terms in line with guidelines will be considered accepted in principle. 
 
+## Facilitate atomic changes
+
+See [issue #371](https://github.com/bids-standard/bids-specification/issues/371) for motivation and discussion.
+It is recommended to identify perspective entities and metadata fields to be added, and research if they, or their synonyms, are  already considered in submitted PRs or other BEPs.
+If those are new, propose a PR(s) introducing those to the BIDS schema so that
+- they could be reviewed "independently" of the larger BEP
+- potentially be made aware of in other BEPs
+
+## Formulate "BEP specific guidelines"
+
+If multiple BEPs need coordination, this document (section below) could be used to formulate guidelines for specific aspects to be followed by multiple BEPs.
 ## General conventions for spatial derivatives
 
 Within this section, guidelines for developing `BEP`s that include spatial derivatives are outlined and motivated.
