@@ -1,6 +1,10 @@
 # BEP general conventions
 
-Based on the evergrowing set of `BEP`s and the respective work and efforts conducted to develop them, the community has identified a set of general conventions that can be used to guide the corresponding processes. These conventions are not part of the [BIDS specification](https://bids-specification.readthedocs.io/en/stable/index.html), but rather a set of guidelines that are recommended to be followed when developing a `BEP`. These conventions are not set in stone and can be modified as needed. However, we recommend that any changes to these conventions be discussed with the `BIDS community` before being implemented. The guidelines are thus RECOMMENDED, not REQUIRED, in that `BEP`s would be allowed to deviate when deemed necessary. The goal is to establish consensus so that parts of `BEP`s that propose terms in line with guidelines will be considered accepted in principle. 
+Based on the evergrowing set of `BEP`s and the respective work and efforts conducted to develop them, the community has identified a set of general guidelines that can be used to guide the corresponding processes.
+These guidelines are not part of the [BIDS specification](https://bids-specification.readthedocs.io/en/stable/index.html), but rather are recommended to be followed when developing a `BEP`.
+These guidelines are not set in stone and can be modified as needed.
+The guidelines are thus RECOMMENDED, not REQUIRED, in that `BEP`s would be allowed to deviate when deemed necessary.
+The goal is to establish consensus so that parts of `BEP`s that propose terms in line with guidelines will be considered accepted in principle. 
 
 ## General conventions for spatial derivatives
 
