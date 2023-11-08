@@ -5,7 +5,7 @@ These guidelines are not part of the [BIDS specification](https://bids-specifica
 These guidelines are not set in stone and can be modified as needed.
 These guidelines are RECOMMENDED.
 Therefore, `BEP`s MAY deviate from these guidelines when deemed necessary.
-The goal is to establish consensus so that parts of `BEP`s that propose terms in line with guidelines will be considered accepted in principle. 
+The goal is to establish a basis of consensus to ease agile approval of `BEP`s that propose terms in line with these guidelines. 
 
 ## Facilitate atomic changes
 
