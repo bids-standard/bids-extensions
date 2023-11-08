@@ -41,7 +41,8 @@ Many users are not equipped to understand fine distinctions between different cl
 A specific suffix *pattern* is used : `_<suffix>map`, where `<suffix>` is a BIDS suffix used in the `raw` data (e.g., `dwi` or `bold`). For example, the proposed pattern produces the suffices `_dwimap` or `_boldmap`. `BEP`s may use this suffix pattern under the conditions specified below and MUST specify the extension and metadata that are required with the suffix.
 
 1. The file descriptor does fall under one of the generic derivatives descriptors.
-2. No other descriptor exists in the `BIDS` spec. For example, `statmap` cannot be used, because it is already being used, or soon to be, for a [different specification](https://bids-standard.github.io/stats-models/walkthrough-1.html#from-run-outputs-to-subject-inputs).
+2. No other descriptor exists in the `BIDS` spec.
+    For example, `statmap` cannot be used, because it is already being used, or soon to be, for a [different specification](https://bids-standard.github.io/stats-models/walkthrough-1.html#from-run-outputs-to-subject-inputs).
 
 This suffix pattern provides context through the concatenation of a raw data suffix and the word "`map`", which implies that the file still contains spatially contiguous information (in contrast to tabular/"tidy" data, with each row representing a brain region, for example).
 
