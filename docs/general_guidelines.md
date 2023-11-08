@@ -69,6 +69,7 @@ These generally will be distributed as mean/standard-deviation pairs, for exampl
 
 #### BEP 12: Functional MRI derivatives
 
-`BEP 12` proposes a collection of summary statistics, including `mean`, `standard deviation`, `temporal SNR`, `regional homogeneity`, etc. . Following the example of `BEP 23`, it has adopted the proposal.
+`BEP 12` proposes a collection of summary statistics, including `mean`, `standard deviation`, `temporal SNR`, `regional homogeneity`, etc.
+Following the example of `BEP 23`, it has adopted the proposal.
 
 * `<source_entities>_stat-<mean|std|...>_boldmap.nii.gz`
