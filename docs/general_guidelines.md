@@ -26,7 +26,9 @@ Within this section, guidelines for developing `BEP`s that include spatial deriv
 
 During the work on multiple `BEP`s that include `spatial derivatives`, a repeated pattern in generating derivatives within several imaging modalities' workflows was identified where:
 
-1. A reference map that is used to encode spatial features and parameters is required. There is an antecedent of this in `BIDS` with BEP23 ([see below](#BEP-23-PET-Derivatives)). In that `BEP`, the proposed naming takes the pattern `_<suffix>ref` (e.g., `_boldref`, `_dwiref`, etc.), and that solution has been suggested as a possibility in [issue #1532](https://github.com/bids-standard/bids-specification/issues/1532) of the spec repository.
+1. A reference map that is used to encode spatial features and parameters is required.
+    There is an antecedent of this in `BIDS` with BEP23 ([see below](#BEP-23-PET-Derivatives)).
+    In that `BEP`, the proposed naming takes the pattern `_<suffix>ref` (e.g., `_boldref`, `_dwiref`, etc.), and that solution has been suggested as a possibility in [issue #1532](https://github.com/bids-standard/bids-specification/issues/1532) of the spec repository.
 
 2. We have derived data that are no longer of the same type as the original, but for which we would like to keep the notion of the modality from which this was derived while also signaling that it is derived (i.e., `non-raw`).
 
