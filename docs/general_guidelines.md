@@ -58,7 +58,8 @@ This pattern is, in principle, generalizable across `BEP`s and derivatives in ge
 
 #### BEP 23: PET Derivatives
 
-`BEP 23` has introduced "`maps`" that correspond to the conventions introduced by `BEP 001 (qMRI)`, such as `T1map`, `T2map`, etc. The following maps were introduced:
+`BEP 23` has introduced "`maps`" that correspond to the conventions introduced by `BEP 001 (qMRI)`, such as `T1map`, `T2map`, etc.
+The following maps were introduced:
 
 * `RDmap` (receptor density map)
 * `BPmap` (binding potential map)
