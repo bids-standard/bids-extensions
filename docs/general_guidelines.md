@@ -51,7 +51,8 @@ This pattern is, in principle, generalizable across `BEP`s and derivatives in ge
   1. A data process might have generated primary parameters that are either `3D (x,y,z)` or `4D (x,y,z,v)`.
       These parameters might be of help for further data analysis or data interpretation, and ultimately the data end user. Examples include "statistics" such as mean, std, etc., or model derivatives, such as `DTI FA`.
 
-  2. At the same time, the process might have generated secondary parameters. These are not strictly necessary for further processing or data interpretation, but they can be potentially useful to interpret the outputs of the data process, to track history of the processing, for reproducibility and ultimately for debugging purposes of the developer/modeler of the code.
+  2. At the same time, the process might have generated secondary parameters.
+      These are not strictly necessary for further processing or data interpretation, but they can be potentially useful to interpret the outputs of the data process, to track history of the processing, for reproducibility and ultimately for debugging purposes of the developer/modeler of the code.
 
 ### Examples
 
