@@ -38,7 +38,9 @@ Many users are not equipped to understand fine distinctions between different cl
 
 ### Guidelines
 
-A specific suffix *pattern* is used : `_<suffix>map`, where `<suffix>` is a BIDS suffix used in the `raw` data (e.g., `dwi` or `bold`). For example, the proposed pattern produces the suffices `_dwimap` or `_boldmap`. `BEP`s may use this suffix pattern under the conditions specified below and MUST specify the extension and metadata that are required with the suffix.
+A specific suffix *pattern* is used : `_<suffix>map`, where `<suffix>` is a BIDS suffix used in the `raw` data (e.g., `dwi` or `bold`).
+For example, the proposed pattern produces the suffices `_dwimap` or `_boldmap`.
+`BEP`s may use this suffix pattern under the conditions specified below and MUST specify the extension and metadata that are required with the suffix.
 
 1. The file descriptor does fall under one of the generic derivatives descriptors.
 2. No other descriptor exists in the `BIDS` spec.
