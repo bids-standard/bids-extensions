@@ -1,8 +1,6 @@
 site_name: BIDS Extension Proposals
 repo_url: https://github.com/bids-standard/bids-extensions/
 
-theme: material
-
 plugins:
   - search
 
@@ -19,6 +17,7 @@ nav:
       - Schema Rules: schema_rules.md
       - Schema Meta: schema_meta.md
   - General Guidelines: general_guidelines.md
+  - FAQ: faq.md
 
 theme:
     name: material
