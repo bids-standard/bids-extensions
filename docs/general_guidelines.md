@@ -60,14 +60,9 @@ This pattern is, in principle, generalizable across `BEP`s and derivatives in ge
 
 #### BEP 23: PET Derivatives
 
-`BEP 23` has introduced "`maps`" that correspond to the conventions introduced by `BEP 001 (qMRI)`, such as `T1map`, `T2map`, etc.
-The following maps were introduced:
+`BEP 23` has introduced Molecular Imaging Maps "`mimap`s" that correspond to the conventions introduced by `BEP 001 (qMRI)`, such as `T1map`, `T2map`, etc.
 
-* `RDmap` (receptor density map)
-* `BPmap` (binding potential map)
-* `GEmap` (genetic expression map)
-
-These generally will be distributed as mean/standard-deviation pairs, for example: `sub-01_stat-mean_desc-5HT_RDmap.nii.gz`/`sub-01_stat-std_desc-5HT_RDmap.nii.gz`.
+These generally will be distributed as mean/standard-deviation pairs, for example: `sub-01_stat-mean_desc-5HT_mimap.nii.gz`/`sub-01_stat-std_desc-5HT_mimap.nii.gz`.
 
 #### BEP 12: Functional MRI derivatives
 
