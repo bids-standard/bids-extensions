@@ -40,15 +40,18 @@ If something being added to BIDS is applicable to at least 80% of use cases
 
 ## When and how to start a BIDS Extension Proposal?
 
-Small contributions (typos, rephrasing of a description, adding a single new
-  metadata field) can be just added as a
-  [Pull Request on GitHub](https://github.com/bids-standard/bids-specification/pulls)
+!!! warning "Does this change need to be a BEP?"
 
-Larger contributions that are expected to involve longer and more involved
-  discussions should be first described in a standalone document: a Google Docs
-  BEP. Development on Google Docs is preferred as this is a low barrier to entry
-  for colleagues who do not use GitHub and/or Markdown,
-  allowing more people to get involved.
+    Small contributions
+    (typos, rephrasing of a description, adding a single new metadata field)
+    can be just added to the BIDS specification
+    as a [Pull Request on GitHub](https://github.com/bids-standard/bids-specification/pulls)
+
+Larger contributions that are expected to involve longer and more involved discussions
+should be first described in a standalone document: a Google Docs BEP.
+Development on Google Docs is preferred as this is a low barrier to entry
+for colleagues who do not use GitHub and/or Markdown,
+allowing more people to get involved.
 
 1. Explore [the specification](bids-specification.readthedocs.io)
    and [the BEP lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
@@ -56,16 +59,15 @@ Larger contributions that are expected to involve longer and more involved
    that may support what you are trying to add into the BIDS Specification.
    Someone may have already done work for you.
 
-2. Read the
-   [BIDS governance document](https://bids.neuroimaging.io/governance.html).
+1. Read the [BIDS governance document](https://bids.neuroimaging.io/governance.html).
 
-3. Familiarize yourself with the BIDS community by browsing current issues,
+1. Familiarize yourself with the BIDS community by browsing current issues,
    discussions, and proposed changes on
    [the BIDS specification repository].
    Search for issues relating to your feature or BEP idea
    before creating a new issue.
 
-4. Open an initial “issue” on
+1. Open an initial “issue” on
    [the BIDS specification repository] issues page
    to gauge interest in your potential BEP, and to collect
    feedback by more community members and
@@ -73,8 +75,8 @@ Larger contributions that are expected to involve longer and more involved
    **This is an important step before proceeding in order to make sure that
    more consensus arises and more contributors are aware what is happening**.
 
-5. Communicate with the BIDS maintainers to make your BEP official. This
-   entails registering the BEP with a number on
+1. Communicate with the BIDS maintainers to make your BEP official.
+  This entails registering the BEP with a number on
    [the BIDS website](https://bids.neuroimaging.io/get_involved.html).
    To obtain a number for your BEP, follow the previous steps and then [open a
    new issue](https://github.com/bids-standard/bids-website/issues)
@@ -82,31 +84,41 @@ Larger contributions that are expected to involve longer and more involved
    [website GitHub repository](https://github.com/bids-standard/bids-website/),
    cross-linking to any other already existing issues.
 
-6. Create a draft of your extension by discussing among colleagues. The
+## Developping the BIDS extension proposal
+
+1. Create a draft of your extension by discussing among colleagues. The
    [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
    provides some boilerplate and formatting conventions.
 
-7. List on the draft the contributor(s) leading the effort.
+1. List on the draft the contributor(s) leading the effort.
 
-8. Share the draft (remember to
+1. Share the draft (remember to
    [share a link that allows anyone to comment](https://support.google.com/docs/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en))
    with the
    [bids-discussion mailing list](https://groups.google.com/forum/#!forum/bids-discussion)
    and ask for comments.
 
-9. Incorporate the feedback and strive for consensus.
+1. Incorporate the feedback and strive for consensus.
 
-10. Help to merge the extension into the main specification (this will require
+1. Help to merge the extension into the main specification (this will require
    converting the proposal to Markdown and submitting a Pull Request at
    [the BIDS specification repository])
 
-11. Create example datasets.
+1. Create example datasets.
 
-12. If necessary, contribute a pull request to the
+    !!! Note 
+        In some cases, examples for the BEP can be designed earlier in the BEP process.
+        This can help make things more concrete and make it more obvious 
+        what aspects of the BEP work and what aspect may need to be reworked.
+
+1. If necessary, contribute a pull request to the
       [BIDS Validator repository](https://github.com/bids-standard/bids-validator)
       as well to incorporate the extension.
 
 ![bep_process](assets/img/bep_process.png)
+
+
+
 
 ## Advice for extending BIDS
 
