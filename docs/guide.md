@@ -81,15 +81,13 @@ allowing more people to get involved.
    [website GitHub repository](https://github.com/bids-standard/bids-website/),
    cross-linking to any other already existing issues.
 
-<!-- 1. Explore [the specification](bids-specification.readthedocs.io)
-   and [the BEP lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
-   to find existing or ongoing efforts
-   that may support what you are trying to add into the BIDS Specification.
-   Someone may have already done work for you. -->
 
 <!-- 1. Read the [BIDS governance document](https://bids.neuroimaging.io/governance.html). -->
 
 ## Developping the BIDS extension proposal
+
+1. Make sure you are familiar with [the BIDS specification]https://bids-specification.readthedocs.io/en/latest/)
+   and the [bids-examples](https://github.com/bids-standard/bids-examples).
 
 1. Create a draft of your extension by discussing among colleagues. The
    [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
@@ -109,7 +107,7 @@ allowing more people to get involved.
    converting the proposal to Markdown and submitting a Pull Request at
    [the BIDS specification repository])
 
-1. Create example datasets.
+1. Create example datasets to add to the [bids-examples](https://github.com/bids-standard/bids-examples).
 
     !!! Note 
         In some cases, examples for the BEP can be designed earlier in the BEP process.
