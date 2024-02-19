@@ -86,14 +86,17 @@ allowing more people to get involved.
 
 ## Developping the BIDS extension proposal
 
-1. Make sure you are familiar with [the BIDS specification]https://bids-specification.readthedocs.io/en/latest/)
+1. Make sure you are familiar with [the BIDS specification](https://bids-specification.readthedocs.io/en/latest/)
    and the [bids-examples](https://github.com/bids-standard/bids-examples).
 
-1. Create a draft of your extension by discussing among colleagues. The
-   [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
+1. Create a draft of your extension by discussing among colleagues 
+   along with minimal dataset examples.
+   The [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
    provides some boilerplate and formatting conventions.
 
-1. List on the draft the contributor(s) leading the effort.
+    !!! Note 
+        Designing aexamples early in the BEP process can help make things more concrete
+        and make it more obvious what aspects of the BEP work and what aspect may need to be reworked.
 
 1. Share the draft (remember to
    [share a link that allows anyone to comment](https://support.google.com/docs/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en))
@@ -106,13 +109,6 @@ allowing more people to get involved.
 1. Help to merge the extension into the main specification (this will require
    converting the proposal to Markdown and submitting a Pull Request at
    [the BIDS specification repository])
-
-1. Create example datasets to add to the [bids-examples](https://github.com/bids-standard/bids-examples).
-
-    !!! Note 
-        In some cases, examples for the BEP can be designed earlier in the BEP process.
-        This can help make things more concrete and make it more obvious 
-        what aspects of the BEP work and what aspect may need to be reworked.
 
 1. If necessary, contribute a pull request to the
       [BIDS Validator repository](https://github.com/bids-standard/bids-validator)
