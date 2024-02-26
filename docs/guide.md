@@ -94,7 +94,8 @@ Larger contributions that are expected to involve longer and more involved
    [bids-discussion mailing list](https://groups.google.com/forum/#!forum/bids-discussion)
    and ask for comments.
 
-9. Incorporate the feedback and strive for consensus.
+9. Incorporate the feedback and strive for consensus. This may involve
+   multiple iterations of the draft. If alternative proposals are made among members and no consensus is reached, you can ask the technical committe to take a decision (BIDS steering group + maintainers).
 
 10. Help to merge the extension into the main specification (this will require
    converting the proposal to Markdown and submitting a Pull Request at
