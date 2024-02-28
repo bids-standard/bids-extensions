@@ -1,10 +1,10 @@
 # BEP general guidelines
 
-Based on the evergrowing set of `BEP`s and the respective work and efforts conducted to develop them, the community has identified a set of general guidelines that can be used to guide the corresponding processes.  
-These guidelines are not part of the [BIDS specification](https://bids-specification.readthedocs.io/en/stable/index.html), but rather are recommended to be followed when developing a `BEP`.  
-These guidelines are not set in stone and can be modified as needed.  
-These guidelines are RECOMMENDED.  
-The goal is to establish a basis of consensus to ease agile approval of `BEP`s that propose terms in line with these guidelines. 
+Based on the evergrowing set of `BEP`s and the respective work and efforts conducted to develop them, the community has identified a set of general guidelines that can be used to guide the corresponding processes.
+These guidelines are not part of the [BIDS specification](https://bids-specification.readthedocs.io/en/stable/index.html), but rather are recommended to be followed when developing a `BEP`.
+These guidelines are not set in stone and can be modified as needed.
+These guidelines are RECOMMENDED.
+The goal is to establish a basis of consensus to ease agile approval of `BEP`s that propose terms in line with these guidelines.
 
 ## Facilitate atomic changes
 
