@@ -25,12 +25,12 @@ A more substantial extension can lead to standalone publications, as evidenced
 
 ## Overarching principles in the design of BIDS
 
-The folder structure must not only be machine-readable but also easy to interpret
+The directory structure must not only be machine-readable but also easy to interpret
   by humans. Readability is as important as the ability to
-  programmatically traverse the folder structure.
+  programmatically traverse the directory structure.
 
-When it comes to file names within folders, redundancy trumps conciseness, so the
-  files should be identifiable by their names even if removed from the folder
+When it comes to file names within directories, redundancy trumps conciseness, so the
+  files should be identifiable by their names even if removed from the directory
   structure.
 
 If something being added to BIDS is applicable to at least 80% of use cases
@@ -168,7 +168,7 @@ A common dictionary (BIDS keys) is what makes BIDS successful, it is thus essent
 | model-<label>                                        | BEP016, BEP039                                                                           | Name of model generating derivative file                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | param-<label>                                        | BEP016, BEP039                                                                           | Name of parameter represented by file                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | seg-<label> (equivalent of the current atlas entity) | Changing the current derivatives                                                         | As per current atlas definition a label the user MAY use to distinguish a different segmentations, e.g. atlas/atlas-DKT_space-FSaverage.nii sub-01/sub-01_space-T1_seg-DKT_dseg.nii (are there current uses of the ‘atlas’ key that would be broken changing to ‘seg’?)                                                                                                                                                                                                                                                                          |
-| atlas-<label> (as new entity)                        | BEP003, BEP038                                                                           | Atlas is defined as per Merrian-Webster, a bound collection of maps (i.e. labelled brain regions) and metadata (tables, or textual matter) e.g. atlas-x_space-MNI305_ext or atlas-DKT_ext                                                                                                                                                                                                                                                                                                                                                        |
+| atlas-<label> (as new entity)                        | BEP003, BEP038                                                                           | Atlas is defined as per Merrian-Webster, a bound collection of maps (i.e. labeled brain regions) and metadata (tables, or textual matter) e.g. atlas-x_space-MNI305_ext or atlas-DKT_ext                                                                                                                                                                                                                                                                                                                                                        |
 | group-<label>                                        | BEP039                                                                                   | Name of group combining over subjects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | node-<label>                                         | No BEP (BEP-002 working implementation)                                                  | Name of processing node generating derivative file                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | stat-<label>                                         | BEP016 (contemplated but not currently present in proposal), also useful for atlas BEP38 | The theory was that one could e.g. compute the mean value across all values in a time series, or within a DWI shell, or the like. The particular aggregate statistic may not be an adequate descriptor; you could also need eg. the axis along which the aggregate was applied, which elements were or were not included in the aggregate, etc.. So it might be too much complexity to hand to a single entity?                                                                                                                                  |
@@ -177,13 +177,13 @@ A common dictionary (BIDS keys) is what makes BIDS successful, it is thus essent
 
 ### Derivatives BEP and provenance
 
-The objective of BIDS is to promote data sharing, ensuring that the information is 
-easily accessible and reusable. For this purpose, it is highly recommended to provide 
-comprehensive provenance information to ensure transparency and traceability. While full 
-provenance can be used for full reproducibility, it is not a pre-requirement. A suggested 
-approach to developing the BEP involves envisioning each processing step, including 
-potential file names and JSON structures. While this exercise might not precisely depict 
-the eventual output files and JSON configurations, it's instrumental in capturing provenance 
+The objective of BIDS is to promote data sharing, ensuring that the information is
+easily accessible and reusable. For this purpose, it is highly recommended to provide
+comprehensive provenance information to ensure transparency and traceability. While full
+provenance can be used for full reproducibility, it is not a pre-requirement. A suggested
+approach to developing the BEP involves envisioning each processing step, including
+potential file names and JSON structures. While this exercise might not precisely depict
+the eventual output files and JSON configurations, it's instrumental in capturing provenance
 and identifying what files or information should be retained for optimal reuse in future studies.
 
 _What is provenance?_: Provenance is information about how the dataset was processed.
@@ -250,7 +250,7 @@ Many of the modalities we use have an associated standard, like DICOM for instan
   than one from other established standards. In using DICOM it is reasonable to
   [check what DICOM has already developed](https://www.dicomstandard.org/) and see
   if there is overlap. In a similar fashion, when relevant, we recommend having a
-  `sourcedata/` folder in example datasets to include DICOM files.
+  `sourcedata/` directory in example datasets to include DICOM files.
   You can delete the data and keep the header, removing any
   [personally identifying information](https://www.datacenters.com/news/everything-you-need-to-know-about-pii-personal-identifiable-information),
   also known as PII or "Personal Data" under the

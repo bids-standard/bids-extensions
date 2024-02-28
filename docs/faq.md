@@ -6,7 +6,7 @@ during the development of BIDS extensions proposals.
 ## Can we introduce new entities / metadata to the BIDS specification?
 
 > We need to introduce an entity to distinguish on-device preprocessing methods
-> that lead to the raw data, and found entities `proc` and `rec` in the current specification. 
+> that lead to the raw data, and found entities `proc` and `rec` in the current specification.
 > Can we extend one or the other, or should we instead create a new entity with analogous description?
 
 The rule of thumb is: try to reuse as much as possible existing entities or medata.

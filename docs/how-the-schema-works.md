@@ -27,7 +27,7 @@ The BIDS Schema can be be divided into three major components:
 
 2) [Rules](https://github.com/bids-standard/bids-specification/tree/master/src/schema/rules) (`rules.*`)
     - Validation rules for entity ordering, sidecar values, and both common and modality specific rules
-    - Source of filename tempaltes and tables describing sidecar fields and TSV Columns
+    - Source of filename templates and tables describing sidecar fields and TSV Columns
 
 3) [Meta](https://github.com/bids-standard/bids-specification/tree/master/src/schema/meta) (`meta.*`)
     - Defines a "context" object to which rules can be applied
@@ -37,10 +37,10 @@ The BIDS Schema can be be divided into three major components:
 >
 >_The character: `*`, represents a [glob](https://man7.org/linux/man-pages/man7/glob.7.html) and is used to denote matching any string/object_.
 
-Examples of [Objects](schema_meta.md), [Rules](schema_rules.md), and [Meta](schema_meta.md) are detailed in the aforementioned linked sections. 
+Examples of [Objects](schema_meta.md), [Rules](schema_rules.md), and [Meta](schema_meta.md) are detailed in the aforementioned linked sections.
 
-Examples are hyperlinked to parts of the schema (source code) where applicable, simply click on the blue 
-links to reach those parts of the schema. 
+Examples are hyperlinked to parts of the schema (source code) where applicable, simply click on the blue
+links to reach those parts of the schema.
 
 Specific examples from the schema can be expanded or hidden by clicking on blue _boxes_ to show or hide them.
 
