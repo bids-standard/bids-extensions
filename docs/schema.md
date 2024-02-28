@@ -10,10 +10,10 @@ The BIDS schema is a machine readable representation of the BIDS Standard
 The schema is split into three major divisions:
 
 - `objects` - Contains definitions of BIDS concepts and entities
-- `rules` - Rules for validation of file path names, file/folder contents 
-(including sidecar and other metadata) 
+- `rules` - Rules for validation of file path names, file/directory contents
+(including sidecar and other metadata)
 - `meta` - Contains rules and definitions for the schema itself as well as defining
-a "context" object to which rules can be applied. 
+a "context" object to which rules can be applied.
 
 The schema is organized in the file structure in the tree seen below:
 
@@ -38,8 +38,8 @@ src/schema
 
 ## Where is the Schema?
 
-The schema source code lives within the [BIDS Specification][schema_source]; 
-  a deferenced JSON'ified verison can be found at the following url ->
+The schema source code lives within the [BIDS Specification][schema_source];
+  a deferenced JSON'ified version can be found at the following url ->
   [bids-specification.readthedocs.io/en/stable/schema.json][jsonified_schema].
 
 ## Schema documentation
@@ -54,29 +54,29 @@ If you're just returning to BIDS, creating a new BEP, or simply curious as to th
   of the transition from markdown to a yaml schema to render and use the BIDS Specification you are encouraged
   to browse the links below:
 
-The schema began as a [pull request][start_of_schema] to convert an entity table into a machine readable 
-  format and then began to grow in scope. Additional work towards the schematization of the specification 
-  has proceeded steadily (and in sometimes in bursts during Schema Sprints<sup>[1][BIDS Sprint 1 Discussion], 
+The schema began as a [pull request][start_of_schema] to convert an entity table into a machine readable
+  format and then began to grow in scope. Additional work towards the schematization of the specification
+  has proceeded steadily (and in sometimes in bursts during Schema Sprints<sup>[1][BIDS Sprint 1 Discussion],
   [2][BIDS Sprint 2 Discussion], [3][BIDS Sprint 3 Discussion]</sup>) since.
 
 ## Motivations and Goals
 
 - Machine readablity ensures interoperability with other tools and utilities
 - Uniform implementation between tools that use BIDS. Previously, other tools relied on their own data structures implemented from an interpretation of the specification.
-- Easier maintainance of the specification, tools, and other applications <sup>[1][start_of_schema],[5][bids_schema_validation_for_datatypes]</sup>
+- Easier maintenance of the specification, tools, and other applications <sup>[1][start_of_schema],[5][bids_schema_validation_for_datatypes]</sup>
 - Improve the process of writing BEPs
 
 ## Extending the Schema and Validator
 
-Past BIDS Extension Proposals (BEPs) have required extending the specification itself as well as the BIDS Validator. 
-  After rendering the BEP into markdown it was incumbent on the BEP leads or maintainers to 
+Past BIDS Extension Proposals (BEPs) have required extending the specification itself as well as the BIDS Validator.
+  After rendering the BEP into markdown it was incumbent on the BEP leads or maintainers to
   then update the Validator with rules and logic to handle the new BEP.
-  This double entry is a byproduct of the fact that the Validator was built in javascript to run both 
+  This double entry is a byproduct of the fact that the Validator was built in javascript to run both
   locally and from within the browser to validate BIDS data.
 
-Efforts have been made to eliminate needing to implement a BEP in both a mark-up langugage and 
-  in javascript to satisfy the Validator. These two steps can be reduced into one by using the 
-  machine readable schema; one single input is then used for the specification, the Validator, 
+Efforts have been made to eliminate needing to implement a BEP in both a mark-up language and
+  in javascript to satisfy the Validator. These two steps can be reduced into one by using the
+  machine readable schema; one single input is then used for the specification, the Validator,
   or any other software or tool that interacts with BIDS. A change now made to a BEP, the spec in general,
   is now a change made and updated within the validator
 

@@ -1,56 +1,57 @@
+---
 site_name: BIDS Extension Proposals
 repo_url: https://github.com/bids-standard/bids-extensions/
 
 plugins:
-  - search
+-   search
 
 docs_dir: docs
 
 nav:
-  - About: index.md
-  - Guide: guide.md
-  - Submission Process: submission.md
-  - The Schema and Validator: 
-      - About the Schema: schema.md
-      - Parts of the Schema: how-the-schema-works.md
-      - Schema Objects: schema_objects.md
-      - Schema Rules: schema_rules.md
-      - Schema Meta: schema_meta.md
-  - General Guidelines: general_guidelines.md
-  - FAQ: faq.md
+-   About: index.md
+-   Guide: guide.md
+-   Submission Process: submission.md
+-   The Schema and Validator:
+    -   About the Schema: schema.md
+    -   Parts of the Schema: how-the-schema-works.md
+    -   Schema Objects: schema_objects.md
+    -   Schema Rules: schema_rules.md
+    -   Schema Meta: schema_meta.md
+-   General Guidelines: general_guidelines.md
+-   FAQ: faq.md
 
 theme:
     name: material
     favicon: assets/favicon/favicon.ico
     logo: assets/img/logo.png
     features:
-      - navigation.sections
-      - content.action.edit
+    -   navigation.sections
+    -   content.action.edit
     icon:
-      repo: fontawesome/brands/github
-      edit: material/pencil
+        repo: fontawesome/brands/github
+        edit: material/pencil
     palette:
-      - media: (prefers-color-scheme)
+    -   media: (prefers-color-scheme)
         toggle:
-          icon: material/brightness-auto
-          name: Switch to light mode
-      - media: "(prefers-color-scheme: light)"
+            icon: material/brightness-auto
+            name: Switch to light mode
+    -   media: '(prefers-color-scheme: light)'
         scheme: default
         toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
-      - media: "(prefers-color-scheme: dark)"
+            icon: material/brightness-7
+            name: Switch to dark mode
+    -   media: '(prefers-color-scheme: dark)'
         scheme: slate
         toggle:
-          icon: material/brightness-4
-          name: Switch to system preference
+            icon: material/brightness-4
+            name: Switch to system preference
 
 edit_uri: https://github.com/bids-standard/bids-extensions/edit/main/docs/
 
 
 markdown_extensions:
-    - toc:
+-   toc:
         anchorlink: true
-    - pymdownx.superfences
-    - pymdownx.details
-    - admonition
+-   pymdownx.superfences
+-   pymdownx.details
+-   admonition

@@ -14,7 +14,7 @@
     path: dataset_description.json
     ```
 
-??? "partcipants"
+??? "participants"
 
     ```yaml
     participants:
