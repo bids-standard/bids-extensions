@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T16:07:00.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="J49tw4fR41Jk5vqsIDkI" version="23.1.6" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-28T09:53:55.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="8OT6Z7A2fpEhWDpavP_F" version="23.1.6" type="device">
   <diagram name="Page-1" id="_EbJ5tqrh1YKQdB2Ct3X">
-    <mxGraphModel dx="1195" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,32 +100,32 @@
         <mxCell id="F-qZr1Eu2tG3xOM7pDzP-34" value="New release" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bpr6K4czACzm8x4vcF3k-1" value="Get help from the&lt;br&gt;technical committee&lt;div&gt;if consensus cannot be reached&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="Bpr6K4czACzm8x4vcF3k-1" value="Get help from the&lt;br&gt;ad-hoc decision group&lt;br&gt;(steering+maintainers)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="31" y="300" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Bpr6K4czACzm8x4vcF3k-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Bpr6K4czACzm8x4vcF3k-1">
+        <mxCell id="Bpr6K4czACzm8x4vcF3k-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Bpr6K4czACzm8x4vcF3k-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="335" as="sourcePoint" />
             <mxPoint x="380" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <object label="Experts" id="Bpr6K4czACzm8x4vcF3k-5">
-          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" parent="1" vertex="1">
             <mxGeometry x="106" y="34" width="30" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="" id="Bpr6K4czACzm8x4vcF3k-7">
-          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" parent="1" vertex="1">
             <mxGeometry x="398" y="142" width="30" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="" id="Bpr6K4czACzm8x4vcF3k-8">
-          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" parent="1" vertex="1">
             <mxGeometry x="408" y="152" width="30" height="60" as="geometry" />
           </mxCell>
         </object>
         <object label="" id="Bpr6K4czACzm8x4vcF3k-9">
-          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" parent="1" vertex="1">
             <mxGeometry x="420" y="142" width="30" height="60" as="geometry" />
           </mxCell>
         </object>
