@@ -66,7 +66,7 @@ allowing more people to get involved.
    to gauge interest in your potential BEP, and to collect
    feedback by more community members and
    [BIDS maintainers](https://github.com/bids-standard/bids-specification/blob/master/DECISION-MAKING.md#maintainers-group).
-   
+
 !!! warning
 
     This is an important step before proceeding in order to make sure that
@@ -89,12 +89,12 @@ allowing more people to get involved.
 1. Make sure you are familiar with [the BIDS specification](https://bids-specification.readthedocs.io/en/latest/)
    and the [bids-examples](https://github.com/bids-standard/bids-examples).
 
-1. Create a draft of your extension by discussing among colleagues 
+1. Create a draft of your extension by discussing among colleagues
    along with minimal dataset examples.
    The [BIDS Extension Proposal template](https://docs.google.com/document/d/1W7--Mf3gCCb1mVfhsoRJCAKFhmf2umG1PFkyZ1jEgMw/edit#)
    provides some boilerplate and formatting conventions.
 
-    !!! Note 
+    !!! Note
         Designing aexamples early in the BEP process can help make things more concrete
         and make it more obvious what aspects of the BEP work and what aspect may need to be reworked.
 
