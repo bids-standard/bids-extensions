@@ -84,7 +84,7 @@ allowing more people to get involved.
 
 <!-- 1. Read the [BIDS governance document](https://bids.neuroimaging.io/governance.html). -->
 
-## Developping the BIDS extension proposal
+## Developing the BIDS extension proposal
 
 1. Make sure you are familiar with [the BIDS specification](https://bids-specification.readthedocs.io/en/latest/)
    and the [bids-examples](https://github.com/bids-standard/bids-examples).
@@ -95,7 +95,7 @@ allowing more people to get involved.
    provides some boilerplate and formatting conventions.
 
     !!! Note
-        Designing aexamples early in the BEP process can help make things more concrete
+        Designing examples early in the BEP process can help make things more concrete
         and make it more obvious what aspects of the BEP work and what aspect may need to be reworked.
 
 1. Share the draft (remember to
