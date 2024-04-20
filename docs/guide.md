@@ -50,7 +50,7 @@ Larger contributions that are expected to involve longer and more involved
   for colleagues who do not use GitHub and/or Markdown,
   allowing more people to get involved.
 
-1. Explore [the specification](bids-specification.readthedocs.io)
+1. Explore [the specification](https://bids-specification.readthedocs.io)
    and [the BEP lists](https://bids.neuroimaging.io/get_involved.html#extending-the-bids-specification)
    to find existing or ongoing efforts
    that may support what you are trying to add into the BIDS Specification.
