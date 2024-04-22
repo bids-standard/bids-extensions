@@ -1,4 +1,4 @@
 # Frequently asked questions
 
-Moved
+Moved to docs/FAQ/bep.md
 
