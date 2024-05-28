@@ -134,7 +134,7 @@ Objects contain selectors, issues and error messages to raise during validation,
 
 [`objects.suffixes`](https://github.com/bids-standard/bids-specification/blob/master/src/schema/objects/suffixes.yaml) (bold)
 
-??? "object.sufixes.bold"
+??? "object.suffixes.bold"
 
     ```yaml
     bold:
