@@ -28,9 +28,9 @@ During the work on multiple `BEP`s that include `spatial derivatives`, a repeate
 
 1. A reference map that is used to encode spatial features and parameters is required.
     There is an antecedent of this in `BIDS` with BEP23 ([see below](#BEP-23-PET-Derivatives)).
-    In that `BEP`, the proposed naming takes the pattern `_<suffix>ref` (e.g., `_boldref`, `_dwiref`, etc.), and that solution has been suggested as a possibility in [issue #1532](https://github.com/bids-standard/bids-specification/issues/1532) of the spec repository.
+    In that `BEP`, the proposed naming takes the pattern `_<suffix>ref` (for example, `_boldref`, `_dwiref`, and so on), and that solution has been suggested as a possibility in [issue #1532](https://github.com/bids-standard/bids-specification/issues/1532) of the spec repository.
 
-2. We have derived data that are no longer of the same type as the original, but for which we would like to keep the notion of the modality from which this was derived while also signaling that it is derived (i.e., `non-raw`).
+2. We have derived data that are no longer of the same type as the original, but for which we would like to keep the notion of the modality from which this was derived while also signaling that it is derived (meaning `non-raw`).
 
 ### Motivation for guidelines
 
@@ -51,7 +51,7 @@ This suffix pattern provides context through the concatenation of a raw data suf
 This pattern is, in principle, generalizable across `BEP`s and derivatives in general:
 
   1. A data process might have generated primary parameters that are either `3D (x,y,z)` or `4D (x,y,z,v)`.
-      These parameters might be of help for further data analysis or data interpretation, and ultimately the data end user. Examples include "statistics" such as mean, std, etc., or model derivatives, such as `DTI FA`.
+      These parameters might be of help for further data analysis or data interpretation, and ultimately the data end user. Examples include "statistics" such as mean, std, and so on, or model derivatives, such as `DTI FA`.
 
   2. At the same time, the process might have generated secondary parameters.
       These are not strictly necessary for further processing or data interpretation, but they can be potentially useful to interpret the outputs of the data process, to track history of the processing, for reproducibility and ultimately for debugging purposes of the developer/modeler of the code.
@@ -60,13 +60,13 @@ This pattern is, in principle, generalizable across `BEP`s and derivatives in ge
 
 #### BEP 23: PET Derivatives
 
-`BEP 23` has introduced Molecular Imaging Maps "`mimap`s" that correspond to the conventions introduced by `BEP 001 (qMRI)`, such as `T1map`, `T2map`, etc.
+`BEP 23` has introduced Molecular Imaging Maps "`mimap`s" that correspond to the conventions introduced by `BEP 001 (qMRI)`, such as `T1map`, `T2map`, adn others.
 
 These generally will be distributed as mean/standard-deviation pairs, for example: `sub-01_stat-mean_desc-5HT_mimap.nii.gz`/`sub-01_stat-std_desc-5HT_mimap.nii.gz`.
 
 #### BEP 12: Functional MRI derivatives
 
-`BEP 12` proposes a collection of summary statistics, including `mean`, `standard deviation`, `temporal SNR`, `regional homogeneity`, etc.
+`BEP 12` proposes a collection of summary statistics, including `mean`, `standard deviation`, `temporal SNR`, `regional homogeneity`, and so on.
 Following the example of `BEP 23`, it has adopted the proposal.
 
 * `<source_entities>_stat-<mean|std|...>_boldmap.nii.gz`

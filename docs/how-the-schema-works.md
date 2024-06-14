@@ -23,7 +23,7 @@ The BIDS Schema can be be divided into three major components:
 
 1) [Objects](https://github.com/bids-standard/bids-specification/blob/master/src/schema/objects) (`objects.*`)
     - Definitions of BIDS concepts
-    - Source of definitions rendered in the specification e.g. in the [glossary](https://bids-specification.readthedocs.io/en/stable/glossary.html)
+    - Source of definitions rendered in the specification for example in the [glossary](https://bids-specification.readthedocs.io/en/stable/glossary.html)
 
 2) [Rules](https://github.com/bids-standard/bids-specification/tree/master/src/schema/rules) (`rules.*`)
     - Validation rules for entity ordering, sidecar values, and both common and modality specific rules
@@ -33,7 +33,7 @@ The BIDS Schema can be be divided into three major components:
     - Defines a "context" object to which rules can be applied
     - Expandable to definitions, tests, or rules related to the schema itself
 
->_Note: object dot notation e.g. `rules.checks.*` is used when referencing parts of the schema throughout this document. Bracket notation such as `objects['columns'][*]` is equally valid, but more difficult to read._
+>_Note: object dot notation for example `rules.checks.*` is used when referencing parts of the schema throughout this document. Bracket notation such as `objects['columns'][*]` is equally valid, but more difficult to read._
 >
 >_The character: `*`, represents a [glob](https://man7.org/linux/man-pages/man7/glob.7.html) and is used to denote matching any string/object_.
 
