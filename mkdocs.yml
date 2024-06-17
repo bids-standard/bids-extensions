@@ -29,7 +29,6 @@ theme:
     -   navigation.sections
     -   content.action.edit
     -   announce.dismiss # allows for closing banner
-#     -   header.autohide
     icon:
         repo: fontawesome/brands/github
         edit: material/pencil
