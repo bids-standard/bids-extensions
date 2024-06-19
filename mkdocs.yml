@@ -22,11 +22,13 @@ nav:
 
 theme:
     name: material
+    custom_dir: docs/overrides # - allows use of the overrides/main.html file
     favicon: assets/favicon/favicon.ico
     logo: assets/img/logo.png
     features:
     -   navigation.sections
     -   content.action.edit
+    -   announce.dismiss # allows for closing banner
     icon:
         repo: fontawesome/brands/github
         edit: material/pencil
