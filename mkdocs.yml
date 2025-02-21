@@ -6,16 +6,16 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        "index.md": https://bids-website.readthedocs.io/en/latest/extensions/index.html
-        "guide.md": https://bids-website.readthedocs.io/en/latest/extensions/specific-guidelines.html
-        "submission.md": https://bids-website.readthedocs.io/en/latest/extensions/submission.html
-        "schema.md": https://bids-website.readthedocs.io/en/latest/standards/schema/index.html
-        "how-the-schema-works.md": https://bids-website.readthedocs.io/en/latest/standards/schema/how-the-schema-works.html
-        "schema_objects.md": https://bids-website.readthedocs.io/en/latest/standards/schema/schema-objects.html
-        "schema_rules.md": https://bids-website.readthedocs.io/en/latest/standards/schema/schema-rules.html
-        "schema_meta.md": https://bids-website.readthedocs.io/en/latest/standards/schema/schema-meta.html
-        "general_guidelines.md": https://bids-website.readthedocs.io/en/latest/extensions/general-guidelines.html
-        "faq.md": https://bids-website.readthedocs.io/en/latest/faq/bids-extensions.html
+        "index.md": https://bids.neuroimaging.io//extensions/index.html
+        "guide.md": https://bids.neuroimaging.io//extensions/specific-guidelines.html
+        "submission.md": https://bids.neuroimaging.io//extensions/submission.html
+        "schema.md": https://bids.neuroimaging.io//standards/schema/index.html
+        "how-the-schema-works.md": https://bids.neuroimaging.io//standards/schema/how-the-schema-works.html
+        "schema_objects.md": https://bids.neuroimaging.io//standards/schema/schema-objects.html
+        "schema_rules.md": https://bids.neuroimaging.io//standards/schema/schema-rules.html
+        "schema_meta.md": https://bids.neuroimaging.io//standards/schema/schema-meta.html
+        "general_guidelines.md": https://bids.neuroimaging.io//extensions/general-guidelines.html
+        "faq.md": https://bids.neuroimaging.io//faq/bids-extensions.html
 
 docs_dir: docs
 

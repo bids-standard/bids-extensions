@@ -1,1 +1,1 @@
-Moved [here](https://bids-website.readthedocs.io/en/latest/standards/schema/how-the-schema-works.html).
+Moved [here](https://bids.neuroimaging.io//standards/schema/how-the-schema-works.html).

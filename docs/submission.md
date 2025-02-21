@@ -1,2 +1,2 @@
 Moved
-[here](https://bids-website.readthedocs.io/en/latest/extensions/submission.html).
+[here](https://bids.neuroimaging.io//extensions/submission.html).

@@ -1,1 +1,1 @@
-Moved [here](https://bids-website.readthedocs.io/en/latest/standards/schema/schema-objects.html).
+Moved [here](https://bids.neuroimaging.io//standards/schema/schema-objects.html).

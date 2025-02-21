@@ -1,1 +1,1 @@
-Moved [here](https://bids-website.readthedocs.io/en/latest/extensions/general-guidelines.html).
+Moved [here](https://bids.neuroimaging.io//extensions/general-guidelines.html).
